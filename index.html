@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portofolio</title>
+</head>
+<body>
+
+    <!-- NAVBAR START -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#Home" class="text-cyan-300 font-bold text-xl block py-5 hover:scale-110">Feryramdania</a>
+                </div>
+                <div class="flex items-center px-10">
+                    <button id="menu" name="menu" type="button" class="block absolute lg:hidden">
+                        <span class="menu-line "></span>
+                        <span class="menu-line "></span>
+                        <span class="menu-line "></span>
+                    </button>
+                    <nav id="navMenu" class="hidden absolute py-4 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex  ">
+                            <li class="group">
+                                <a href="#Home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:scale-110">Beranda </a>
+                            </li>
+                            <li class="group">
+                                <a href="#About" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:scale-110">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#About" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:scale-110">Contact</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary hover:scale-110">Portofolio</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- NAVBAR END -->
+   <!-- HERO SECTION START -->
+    <section id="Home" class="pt-[4rem]">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-3 lg:w-1/2">
+                    <h1 class="text-base font-bold text-primary md:text-xl">Hello guys 👋 ,saya <span class="block font-bold text-cyan-300 text-4xl lg:text-5xl">Fery Ramdania</span></h1>
+                    <h2 class="font-medium text-slate-600 text-lg mb-3 lg:text-xl">Freelance & <span class="text-primary">Content creator</span></h2>
+                    <p class="text-secondary mb-10 font-medium leading-relaxed">Selalu <span class="text-dark font-bold">meng-Improv diri</span> supaya lebih <span class="text-dark font-bold">percaya diri !</span></p>
+
+                    <a href="#" class="font-bold text-dark bg-cyan-300 px-3 py-3 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi saya disini !</a>
+                </div>
+                <div class="w-full self-end px-3 lg:w-1/2">
+                    <div class="relative mt-5 lg:mt-5 lg:right-0">
+                        <img src="asset/xfry3.png" alt="Fery Ramdania" width="555rem">
+                        <span class="absolute -bottom-5 -z-10 left-1/2 -translate-x-1/2 md:scale-125 lg:bottom-10">
+                            <svg width="500" height="500" class="fill-current" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#52D3D8" d="M32.2,-52.1C40.1,-38.6,43.8,-27,47.9,-15.3C52,-3.6,56.6,8.1,53.3,17C49.9,25.8,38.6,31.7,28.4,44.2C18.2,56.8,9.1,76,0.3,75.5C-8.4,75,-16.8,54.8,-32.1,44C-47.5,33.1,-69.8,31.5,-76.3,22.3C-82.7,13,-73.4,-3.9,-61.2,-13.3C-49.1,-22.7,-34.2,-24.6,-23.5,-37.2C-12.9,-49.7,-6.4,-72.8,2.9,-76.8C12.2,-80.7,24.3,-65.5,32.2,-52.1Z" transform="translate(100 100) scale(1.1)" />
+                              </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- HERO SECTION END -->
+
+   <!-- ABOUT START -->
+<section id="About" class="pt-36 pb-32">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-start px-4 lg:w-1/2">
+                <h3 class="text-primary font-bold uppercase text-lg mb-3">Tentang saya</h3>
+                <h2 class="text-2xl font-bold text-dark mb-2">Cek ,keahlian saya disini !</h2>
+                <p class="text-secondary font-medium text-base max-w-xl mb-3">Saya cukup mahir dalam menggunakan <span class="text-dark">HTML & CSS</span> ,karna saya sudah cukup lama menggunakannya sekitar 1-2 Tahun</p>
+            
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2 lg:mt-9">
+                <h4 class="text-2xl font-bold text-dark mb-3">My Social media</h4>
+                <p class="text-secondary font-medium max-w-xl mb-2">Berikut ini adalah beberapa akun social media saya ,yang dapat anda hubungi atau sekedar mencari tahu informasi tentang saya</p>
+                <div class="flex items-center mb-4">
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/fery.ramdania.5" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 text-secondary hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width='25px' height='25px' class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                    </a>
+                    <!-- youtube -->
+                    <a href="https://www.youtube.com/@Xmooday" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 text-secondary hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width='25px' height='25px' class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/fery.ramdania?igsh=MWhwZG96eHQxczZq" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 text-secondary hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width='25px' height='25px' class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- END ABOUT -->
+   <!-- PORTOFOLIO START -->
+    <section id="Portofolio" class="pt-36 pb-16 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                <h3 class="font-semibold text-primary text-lg mb-3">Portofolio</h3>
+                <h2 class="font-bold text-dark text-2xl mb-2">My recently PROJECT</h2>
+                <p class="text-medium text-dark">Saya dengan gembira ingin membagikan beberapa cuplikan dari serangkaian proyek terbaru yang telah saya dedikasikan waktu dan usaha.</p>
+            </div>
+            <div class="w-full px-4 flex flex-wrap lg:w-4/5 lg:mx-auto">
+
+            <div class="mb-12 p-4 md:w-1/2 ">
+                <div class="rounded-md shadow-md overflow-hidden ">
+                    <img src="asset/project 1.PNG" alt="katik Kalkulator Matematik" class="w-full">
+                </div>
+                <h2 class="text-lg font-semibold text-dark my-2">Kalkulator Matematik</h2>
+                <p class="text-base font-medium">adalah sebuah mini web yang mampu menghitung nilai Luas & Keliling dari bangun datar persegi.</p>
+            </div>
+            
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-scroll flex">
+                    <img src="asset/project 2.1.PNG" alt="suwit game" class="w-full">
+                    <img src="asset/project 2.2.PNG" alt="suwit jepang" class="w-full">
+                    <img src="asset/project 2.3.PNG" alt="suwit jawa" class="w-full">
+                </div>
+                <h2 class="text-lg font-semibold text-dark my-2">Suwit Game</h2>
+                <p class="text-base font-medium">adalah sebuah mini web berupa game suwit yang didalamnya terdiri dari 2 game suwit yaitu suwit jepang dan suwit jawa.</p>
+            </div>
+
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-scroll flex">
+                    <img src="asset/project 4.1.PNG" alt="suwit game" class="w-full">
+                    <img src="asset/project 4.2.PNG" alt="suwit jepang" class="w-full">
+                    <img src="asset/project 4.3.PNG" alt="suwit jawa" class="w-full">
+                </div>
+                <h2 class="text-lg font-semibold text-dark my-2">anANIME</h2>
+                <p class="text-base font-medium">adalah sebuah web yang menyediakan info tentang sinopsis dari setiap anime </p>
+            </div>
+
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="asset/project 3.PNG" alt="Kalkulator" class="w-full">
+                </div>
+                <h2 class="text-lg font-semibold text-dark my-2">Kalkulator</h2>
+                <p class="text-base font-medium">Alat penghitung biasa yanng memiliki tampilan menarik .</p>
+            </div>
+
+            </div>
+            </div>
+        </div>
+        
+    </section>
+   <!-- PORTOFOLIO END -->
+
+
+   <script src="js/script.js"></script>
+</body>
+</html>

@@ -17,6 +17,10 @@ div::-webkit-scrollbar{
     backdrop-filter:blur(5px);
     box-shadow: 1px 1px 1px lightgray;  
 }
+.act{
+    color: #67e8f9;
+    transition: 0.5s color;
+}
 *{
     scroll-behavior:smooth;
 }

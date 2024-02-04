@@ -622,6 +622,11 @@ video {
   z-index: 10;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -635,11 +640,6 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .mb-10 {
@@ -686,6 +686,10 @@ video {
   display: none;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-9 {
   height: 2.25rem;
 }
@@ -694,8 +698,8 @@ video {
   height: 100vh;
 }
 
-.h-\[100ch\] {
-  height: 100ch;
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-9 {
@@ -714,10 +718,6 @@ video {
   max-width: 36rem;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -727,12 +727,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-wrap {
@@ -743,24 +739,12 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-stretch {
-  justify-content: stretch;
 }
 
 .self-start {
@@ -823,11 +807,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-}
-
 .fill-current {
   fill: currentColor;
 }
@@ -839,6 +818,11 @@ video {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px-3 {
@@ -869,21 +853,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-16 {
@@ -947,10 +916,6 @@ video {
   font-weight: 600;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -969,22 +934,17 @@ video {
   color: rgb(61 59 64 / var(--tw-text-opacity));
 }
 
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(82 211 216 / var(--tw-text-opacity));
 }
 
 .text-secondary {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
-}
-
-.text-slate-600 {
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
-}
-
-.text-slate-400 {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
@@ -1019,6 +979,7 @@ video {
 
 body{
   font-family:'inter',sans-serif;
+  transition: 1s;
 }
 
 div::-webkit-scrollbar{
@@ -1049,6 +1010,7 @@ div::-webkit-scrollbar{
   -webkit-backdrop-filter:blur(5px);
           backdrop-filter:blur(5px);
   box-shadow: 1px 1px 1px lightgray;
+  text-shadow: 1px 1px 1px gray;
 }
 
 .act{
@@ -1074,6 +1036,46 @@ div::-webkit-scrollbar{
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
+#Portofolio{
+  transition: 1s;
+}
+
+h2{
+  transition: 1s;
+}
+
+p{
+  transition: 1s;
+}
+
+span{
+  transition: 1s;
+}
+
+/* DARKMDOE THEME */
+
+.darkmode-h{
+  color: red;
+}
+
+.darkmode-txt{
+  color: white;
+}
+
+.darkmode-p{
+  color: lightslategray;
+}
+
+.darkmode-body{
+  background-color: #1F2544;
+}
+
+.darkmode-portofolio{
+  background-color: #2D3250;
+}
+
+/* DARKMODE THEME */
 
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;

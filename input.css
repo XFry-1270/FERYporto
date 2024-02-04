@@ -4,6 +4,7 @@
 
 body{
     font-family:'inter',sans-serif;
+    transition: 1s;
 }
 div::-webkit-scrollbar{
     display:none;
@@ -15,7 +16,8 @@ div::-webkit-scrollbar{
 .navbar-fixed{
     @apply z-[9999] fixed bg-white bg-opacity-80;
     backdrop-filter:blur(5px);
-    box-shadow: 1px 1px 1px lightgray;  
+    box-shadow: 1px 1px 1px lightgray;
+    text-shadow: 1px 1px 1px gray;  
 }
 .act{
     color: #67e8f9;
@@ -33,3 +35,34 @@ div::-webkit-scrollbar{
 .menu-active > span:nth-child(3){
     @apply -rotate-45 ;
 }
+#Portofolio{
+    transition: 1s;
+}
+h2{
+    transition: 1s;
+}
+p{
+    transition: 1s;
+}
+span{
+    transition: 1s;
+}
+/* DARKMDOE THEME */
+
+.darkmode-h{
+   color: red;
+}
+.darkmode-txt{
+    color: white;
+}
+.darkmode-p{
+    color: lightslategray;
+}
+.darkmode-body{
+    background-color: #1F2544;
+}
+.darkmode-portofolio{
+    background-color: #2D3250;
+}
+
+/* DARKMODE THEME */

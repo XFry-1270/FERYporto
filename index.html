@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="transition-colors duration-300">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-[#e6f0f8] text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300"
+  >
+    <!-- Navbar -->
+    <nav class="bg-white dark:bg-gray-800 shadow-md fixed w-full z-10">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-bold text-gray-700 dark:text-gray-200">
+          Portofolio
+        </h1>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="#home" class="hover:text-blue-500">Beranda</a></li>
+          <li><a href="#about" class="hover:text-blue-500">About Me</a></li>
+          <li>
+            <a href="#media" class="hover:text-blue-500">My Social Media</a>
+          </li>
+          <li><a href="#projects" class="hover:text-blue-500">Project</a></li>
+        </ul>
+        <div class="flex items-center space-x-4">
+          <button id="themeToggle" class="text-xl">🌙</button>
+          <button class="md:hidden block text-gray-600" id="menuBtn">☰</button>
+        </div>
+      </div>
+      <div class="md:hidden hidden px-4 pb-4" id="menu">
+        <a href="#home" class="block py-1">Beranda</a>
+        <a href="#about" class="block py-1">About Me</a>
+        <a href="#media" class="block py-1">My Social Media</a>
+        <a href="#projects" class="block py-1">Project</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="h-screen flex items-center justify-center bg-[#d8e8f3] dark:bg-gray-800 pt-20"
+    >
+      <div class="text-center">
+        <img
+          src="asset/xfry3.png"
+          alt="Foto Profil"
+          class="w-40 h-40 mx-auto rounded-full mb-4"
+        />
+        <h2 class="text-3xl font-semibold">Hi, I'm FERY RAMDANIA</h2>
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+          A Web Developer & Content Creator
+        </p>
+        <a
+          href="#about"
+          class="mt-4 inline-block bg-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-500"
+          >About Me</a
+        >
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-16 px-4 max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-100">
+        About Me
+      </h2>
+      <p class="text-gray-600 dark:text-gray-300">
+        A content creator exploring the digital world and a beginner web
+        programmer eager to build engaging and meaningful online experiences.
+      </p>
+    </section>
+
+    <!-- Social Media -->
+    <section
+      id="media"
+      class="bg-[#d8e8f3] dark:bg-gray-800 py-16 px-4 text-center"
+    >
+      <h2 class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-100">
+        My Social Media
+      </h2>
+      <div class="flex justify-center space-x-6">
+        <a
+          href="https://www.instagram.com/fery.ramdania?igsh=MWhwZG96eHQxczZq"
+          class="text-blue-500 hover:underline"
+          >Instagram</a
+        >
+        <a
+          href="https://www.youtube.com/@Xmooday"
+          class="text-blue-500 hover:underline"
+          >YouTube</a
+        >
+        <a
+          href="https://www.linkedin.com/in/fery-ramdania-a008472a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          class="text-blue-500 hover:underline"
+          >LinkedIn</a
+        >
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 px-4 max-w-5xl mx-auto">
+      <h2
+        class="text-2xl font-bold mb-6 text-gray-700 dark:text-gray-100 text-center"
+      >
+        Project
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Project Card 1 -->
+        <div class="bg-white dark:bg-gray-700 rounded-2xl p-6 shadow-md">
+          <img
+            src="asset/project 1.png"
+            alt="Xmooday_"
+            class="w-full h-40 object-cover rounded-lg mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2">Xmooday_</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-4 h-24 overflow-y-auto">
+            I successfully grew a YouTube channel from zero to a large
+            subscriber base by identifying market opportunities. Recognizing the
+            strong demand for K-Pop and Korean drama content, I created a
+            channel that aligned with audience interests. Through consistency,
+            audience research, and creativity, I managed to attract viewers,
+            increase engagement, and scale the channel to thousands of
+            subscribers.
+          </p>
+          <a
+            href="https://www.youtube.com/@Xmooday"
+            target="_blank"
+            class="inline-block bg-blue-400 text-white px-4 py-2 rounded-full hover:bg-blue-500"
+            >Lihat Project</a
+          >
+        </div>
+        <!-- Project Card 2 -->
+        <div class="bg-white dark:bg-gray-700 rounded-2xl p-6 shadow-md">
+          <img
+            src="asset/project 3.1.png"
+            alt="HITBAR"
+            class="w-full h-40 object-cover rounded-lg mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2">HITBAR</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-4 h-24 overflow-y-auto">
+            Hitbar is a simple and interactive web application designed to help
+            users calculate the area and perimeter of geometric shapes. With a
+            user-friendly interface, Hitbar is suitable for students or anyone
+            who wants to quickly and practically understand basic mathematical
+            concepts. Created by Fery Ramdania, Hitbar serves as an engaging and
+            efficient learning tool. © 2024
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            class="inline-block bg-blue-400 text-white px-4 py-2 rounded-full hover:bg-blue-500"
+            >Lihat Project</a
+          >
+        </div>
+        <!-- Tambahkan project tambahan di sini -->
+      </div>
+    </section>
+
+    <script>
+      // Toggle menu (mobile)
+      document.getElementById("menuBtn").addEventListener("click", function () {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("hidden");
+      });
+
+      // Theme toggle
+      const themeToggle = document.getElementById("themeToggle");
+      const html = document.documentElement;
+
+      if (localStorage.getItem("theme") === "dark") {
+        html.classList.add("dark");
+        themeToggle.textContent = "☀️";
+      }
+
+      themeToggle.addEventListener("click", () => {
+        html.classList.toggle("dark");
+        if (html.classList.contains("dark")) {
+          localStorage.setItem("theme", "dark");
+          themeToggle.textContent = "☀️";
+        } else {
+          localStorage.setItem("theme", "light");
+          themeToggle.textContent = "🌙";
+        }
+      });
+    </script>
+  </body>
+</html>
